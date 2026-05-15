@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>dotnet-Strategy-02fa5d61-db72-4893-bda3-4d679be252d6</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="CryptoClients.Net" Version="4.10.0" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.1"/>
+    </ItemGroup>
+</Project>
